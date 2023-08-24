@@ -7,6 +7,7 @@ BALL_SPEED_X = 4
 BALL_SPEED_Y = -4
 width, height = (800, 600)
 
+
 class Ball(pygame.sprite.Sprite):
     def __init__(self):
         super().__init__()
